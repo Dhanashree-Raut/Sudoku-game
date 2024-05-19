@@ -1,5 +1,5 @@
 # Sudoku-game
-The code uses a brute-force backtracking algorithm to solve the Sudoku puzzle by trying different number placements and backtracking when necessary
+The Sudoku solver employs a brute-force  backtracking approach to solve the puzzle. The algorithm works by trying to place numbers from 1 to 9 in each empty cell (represented by 0) and recursively attempting to solve the puzzle. If a number placement leads to a conflict, the algorithm backtracks and tries the next number. This process continues until the puzzle is solved.
 
 # 1. Set up the required environment:
 Install Python: Ensure that you have Python installed on your system. You can download Python from the official Python website (https://www.python.org) and follow the installation instructions specific to your operating system.
